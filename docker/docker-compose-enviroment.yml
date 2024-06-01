@@ -1,0 +1,10 @@
+services:
+  database:
+    image: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: purr
+      MYSQL_DATABASE: kairos-db
+      MYSQL_USER: dev-user
+      MYSQL_PASSWORD: development
